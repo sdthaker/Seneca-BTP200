@@ -3,7 +3,7 @@
 - [MS2 V1.0](#milestone-2)
 - [MS3 V1.0](#milestone-3)
 - [MS4 V1.0](#milestone-4)
-- [MS5 N/A]()
+- [MS5 V1.0](#milestone-5)
 
 Because of the pandemic and prevention of the spread of COVID19, hospitals need to screen the patients and separate those in need of COVID-test from others. This has to be done in an orderly fashion by letting the patients know what is the expected wait time and let them know when they can be admitted to prevent lineups. 
 
