@@ -1,8 +1,8 @@
  # Project: General Hospital Pre-Triage Application
-- [MS1 V1.0 due March 16th](#milestone-1)
-- [MS2 V1.0 due March 22nd](#milestone-2)
-- [MS3 V1.0 due March 27th](#milestone-3)
-- [MS4 V1.0 due April 2nd](#milestone-4)
+- [MS1 V1.0](#milestone-1)
+- [MS2 V1.0](#milestone-2)
+- [MS3 V1.0](#milestone-3)
+- [MS4 N/A]()
 - [MS5 N/A]()
 
 Because of the pandemic and prevention of the spread of COVID19, hospitals need to screen the patients and separate those in need of COVID-test from others. This has to be done in an orderly fashion by letting the patients know what is the expected wait time and let them know when they can be admitted to prevent lineups. 
@@ -28,71 +28,6 @@ If Triage is selected then in addition to the patient's name and OHIP number, th
 ### Admit
 Admit is selected when the COVID Test area or the Triage section is ready to accept a patient. After selecting COVID or Triage, the patient with the next ticket in line will be called. Based on the time of the call, the average wait time for the next patient for that lineup (COVID or Triage) will be updated.
 
-## Milestones due dates
-The project will be done in 4 or 5 milestones and each milestone will have its due date. The due date of each milestone will be announced when it is published, and it is based on the amount of work to be done for that milestone. 
-
-## Final project mark
-
-Only the last milestone of the project is evaluated and the other milestones are to make sure you are on track and not making any irreversible mistakes. 
-
-Although the due dates for the milestones are not firm (it is ok to be a few days early or late) but regular submission of the milestones is mandatory and holds 25% of the final mark. For example, if you submit all your milestones one week before the final due date of the project you will lose the 25% mark. 
-
-**Your project will receive a mark of zero if all the milestones are not submitted by the rejection date stated for the milestones**
-
-You can check the due date of each milestone using the ```-due``` flag in the submission command:
-```bash
-~profname.proflastname/submit 2??/prj/m? -due
-```
-- replace **2??** with the subject code
-- replace **m?** with the milestone number
-
-## Citation, Sources
-
-When submitting your work, all the files submitted should carry full student information along with the "citation and sources" information. See the following example:
-
-```C++
-/* Citation and Sources...
-Final Project Milestone ? 
-Module: Whatever
-Filename: Whatever.cpp
-Version 1.0
-Author	John Doe
-Revision History
------------------------------------------------------------
-Date      Reason
-2020/?/?  Preliminary release
-2020/?/?  Debugged DMA
------------------------------------------------------------
-I have done all the coding by myself and only copied the code 
-that my professor provided to complete my workshops and assignments.
------------------------------------------------------------
-OR
------------------------------------------------------------
-Write exactly which part of the code is given to you as help and 
-who gave it to you, or from what source you acquired it.
------------------------------------------------------------*/
-```
-
-## Compiling and Testing Your Program
-
-All your code should be compiled using this command on `matrix`:
-
-```bash
-g++ -Wall -std=c++11 -g -o ws file1.cpp file2.cpp ...
-```
-
-- `-Wall`: the compiler will report all warnings
-- `-std=c++11`: the code will be compiled using the C++11 standard
-- `-g`: the executable file will contain debugging symbols, allowing *valgrind* to create better reports
-- `-o ws`: the compiled application will be named `ws`
-
-After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
-
-```bash
-valgrind ws
-```
-
-To check the output, use a program that can compare text files.  Search online for such a program for your platform, or use *diff* available on `matrix`.
 
 > Note: All the code written in the project must be implemented in the **sdds** namespace.
 
@@ -617,21 +552,6 @@ The actual system time is: 11:46
 ```
 > Note: the last value **11:46** changes based on the system's time.
 
-## MS1 Submission and the due date
-Milestone 1 suggested due date is on March 16th.
-
-> If you would like to successfully complete the project and be on time, try to meet all the due dates of the milestones.
-
-
-Upload your source code and the tester program (**utils.cpp, utils.h, Time.cpp, Time.h and ms1Tester.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m1
-```
-and follow the instructions.
-
-- *2??* is replaced with your subject code
 
 # Milestone 2
 ## Menu Module
@@ -828,34 +748,7 @@ The MS2 Tester program is a combined prgraom of the Menu Tester and the IOAble T
 
 Use the same data in the two tester programs for your submission.
 
-## MS2 Submission and the due date
-Milestone 2 suggested due date is on March 22nd.
 
-> If you would like to successfully complete the project and be on time, try to meet all the due dates of the milestones.
-
-### MS2 Files for submission
-``` Text
-boxes.txt
-Menu.cpp
-Menu.h
-IOAble.cpp
-IOAble.h
-utils.cpp
-utils.h
-Time.cpp  // not used in this milestone, but needed for uitls to compile
-Time.h    // same as above
-ms2Tester.cpp
-```
-
-Upload your source code and the tester program to your `matrix` account. Compile and run your code using the `g++` compiler as shown before and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m2
-```
-and follow the instructions.
-
-- *2??* is replaced with your subject code
 
 # Milestone 3
 
@@ -1009,7 +902,7 @@ Extracts the ticket information from the console using istream as follows:
 Execution example:  
 ```Text
 Name: John Doe
-OHIP: abc
+OHIP:abc
 Bad integer value, try again: 100
 Invalid OHIP Number, [100000000 <= value <= 999999999]: 123123123
 ```
@@ -1029,7 +922,7 @@ abc
 12:34
 -------------------
 Name: John Doe
-OHIP: abc
+OHIP:abc
 Bad integer value, try again: 100
 Invalid OHIP Number, [100000000 <= value <= 999999999]: 123123123
 Enter current time: 12:34
@@ -1101,38 +994,6 @@ W, Ticket Time: 12:54
 W, Ticket number : 14
 
 ```
-
-
-## MS3 Submission and the due date
-Milestone 3 suggested due date is on March 27th.
-
-> If you would like to successfully complete the project and be on time, try to meet all the due dates of the milestones.
-
-### Files for submission
-``` Text
-ms3.csv
-IOAble.cpp
-IOAble.h
-utils.cpp
-utils.h
-Time.cpp  
-Time.h    
-Ticket.cpp
-Ticket.h
-Patient.cpp
-Patient.h
-ms3Tester.cpp
-```
-
-Upload your source code and the tester program to your `matrix` account. Compile and run your code using the `g++` compiler as shown before and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m3
-replace ?? with yoru subject code (44 or 00)
-```
-and follow the instructions.
-
 
 
 # Milestone 4
@@ -1377,35 +1238,3 @@ Read and study the tester program and understand how it works.
 ## ms4Tester.cpp 
 
 The ms4Tester program is the execution of both modules combined.
-
-## MS4 Submission and the due date
-Milestone 4 is due on Friday, Apr 2nd.
-
-### MS4 files for submission
-```text
-IOAble.cpp
-IOAble.h
-Patient.h
-Patient.cpp
-Ticket.h
-Ticket.cpp
-Time.h
-Time.cpp
-utils.h
-utils.cpp
-CovidPatient.h
-CovidPatient.cpp
-TriagePatient.h
-TriagePatient.cpp
-ms4Tester.cpp
-```
-
-Upload your source code and the tester program to your `matrix` account. Compile and run your code using the `g++` compiler as shown before and make sure that everything works properly.
-
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m4
-replace ?? with yoru subject code (44 or 00)
-```
-and follow the instructions.
-
