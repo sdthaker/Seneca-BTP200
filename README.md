@@ -18,3 +18,4 @@ Final Project's learning outcome was to use OOP's 3 main characteristics namely,
 - IO Operators
 - Virtual & Pure Virtual Functions, Abstract Base Classes & Interfaces (Polymorphism)
 - Class & Function Templates
+- Rule of 3 - Copy Constructor, Copy Assignment Operator & Desctuctor
