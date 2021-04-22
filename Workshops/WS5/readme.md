@@ -1,5 +1,5 @@
 ﻿# Workshop #5: Member Operators, Helper functions
-Version 0.9
+
 Version 0.91 (Corrected lab due-date to Thursday)
 
 
@@ -15,50 +15,6 @@ Upon successful completion of this workshop, you will have demonstrated the abil
 - define and create helper binary operator between classes
 - define and create a helper operator between a primitive type and a class.
 
-## Submission Policy
-
-The workshop is divided into two coding parts; part 1, **LAB** and part 2, **DIY**  and one non-coding part:
-
-- ***LAB*** (part 1): worth 50% of the workshop's total price, is due on **Thursday at 23:59:59** of the week of your scheduled lab.
-
-> Please note that the LAB (part 1) section is **not to be started in your lab session**. You should start it on your own before the day of your lab and join the lab session to ask for help and correct your mistakes.
-
-- ***DIY*** (part 2): worth 50% of the workshop's total price, is due on **Sunday at 23:59:59** of the week of your scheduled lab.  Submissions of *DIY* part that do not contain the *reflection* are not considered valid submissions and are ignored.
-
-- *reflection*: non-coding part, to be submitted together with *DIY* part. The reflection doesn't have prices associated with it but can incur a **penalty of max 40% of the whole workshop's price** if your professor deems it insufficient (you make your prices from the code, but you can lose some on the reflection).
-
-If at the deadline the workshop is not complete, there is an extension of **one day** when you can submit the missing parts.  **The code parts that are submitted late receive 0%.**  After this extra day, the submission closes; if the workshop is incomplete when the submission closes (missing at least one of the coding or non-coding parts), **the price for the entire workshop is 0%**.
-
-Every file that you submit must contain (as a comment) at the top **your name**, **your Seneca email**, **Seneca Employee ID** and the **date** when you completed the work.
-
-If the file contains only your work or work provided to you by your professor, add the following message as a comment at the top of the file:
-
-> I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
-
-
-If the file contains work that is not yours (you found it online or somebody provided it to you), **write exactly which part of the assignment is given to you as help, who gave it to you, or which source you received it from.**  By doing this you will only lose the price for the parts you got help for, and the person helping you will be clear of any wrongdoing.
-
-
-## Compiling and Testing Your Program
-
-All your code should be compiled using this command on `matrix`:
-
-```bash
-g++ -Wall -std=c++11 -g -o ws file1.cpp file2.cpp ...
-```
-
-- `-Wall`: the compiler will report all warnings
-- `-std=c++11`: the code will be compiled using the C++11 standard
-- `-g`: the executable file will contain debugging symbols, allowing *valgrind* to create better reports
-- `-o ws`: the compiled application will be named `ws`
-
-After compiling and testing your code, run your program as following to check for possible memory leaks (assuming your executable name is `ws`):
-
-```bash
-valgrind ws
-```
-
-To check the output, use a program that can compare text files.  Search online for such a program for your platform, or use *diff* available on `matrix`.
 
 > Note: All the code written in workshops and the project must be implemented in the **sdds** namespace.
 
@@ -377,22 +333,6 @@ Account.h
 accountMain.cpp
 ```
 
-Upload your source code and data file to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account
-- replace `profname.proflastname` with your professor’s Seneca user-id
-- replace **#** with the workshop number
-- replace **??** with your subject code (2**00** or 2**44**)
-```text
-~profname.proflastname/submit 2??/w#/p1
-```
-
-and follow the instructions.
-
-> **⚠️Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
-
-
-
 
 # DIY (50%)
 > Please note that you can (and probably should) add more member functions to make the DIY part work.
@@ -603,16 +543,3 @@ Mark.h
 Mark.cpp
 markMain.cpp
 ```
-
-Upload your source code to your `matrix` account. Compile and run your code using the `g++` compiler as shown above and make sure that everything works properly.
-
-Then, run the following command from your account
-- replace `profname.proflastname` with your professor’s Seneca user-id
-- replace **#** with the workshop number
-- replace **??** with your subject code (2**00** or 2**44**)
-```text
-~profname.proflastname/submit 2??/w#/p2
-```
-and follow the instructions.
-
-> **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
