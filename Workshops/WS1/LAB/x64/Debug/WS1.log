@@ -1,0 +1,10 @@
+﻿  File.cpp
+C:\Users\thake\Desktop\Sem 2\BTP 200\OOP Workshops\WS1\LAB\File.cpp(17,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\thake\Desktop\Sem 2\BTP 200\OOP Workshops\WS1\LAB\File.cpp(22,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\thake\Desktop\Sem 2\BTP 200\OOP Workshops\WS1\LAB\File.cpp(32,18): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ShoppingList.cpp
+  shoppingListApp.cpp
+  ShoppingRec.cpp
+  Utils.cpp
+  Generating Code...
+  WS1.vcxproj -> C:\Users\thake\Desktop\Sem 2\BTP 200\OOP Workshops\WS1\LAB\x64\Debug\WS1.exe
