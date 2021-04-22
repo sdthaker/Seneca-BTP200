@@ -1,6 +1,6 @@
  # Project: General Hospital Pre-Triage Application
-- [MS1 V1.0 due March 16th](#milestone-1)
-- [MS2 V1.0 due March 22nd](#milestone-2)
+- [MS1 V1.0](#milestone-1)
+- [MS2 V1.0](#milestone-2)
 - [MS3 N/A]()
 - [MS4 N/A]()
 - [MS5 N/A]()
