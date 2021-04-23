@@ -1,6 +1,6 @@
 # Project: Learning Outcomes
 
-Final Project's learning outcome was to use OOP's 3 main characteristics namely, Encapsulation, Inheritance & Polymorphism and make a program that includes all the C++14 capablities and functionalities to form a complete programming solution for a Hospital Screening Procedure.
+Final Project's learning outcome was to use OOP's 3 main characteristics namely, Encapsulation, Inheritance & Polymorphism and make a program that includes all the C++14 capablities and functionalities to form a complete programming solution for a Hospital Screening Procedure. The project utilizes all the below listed learning outcomes.
 
 
 # Workshops: Learning Outcomes
